@@ -1,5 +1,5 @@
 COMPILER=$(where ghc) 
-COMPILER="stack exec ghc"
+#COMPILER="stack exec ghc"
 
 all:
-	$COMPILER 
+	$COMPILER problem1.hs
